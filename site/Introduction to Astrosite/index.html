@@ -280,50 +280,37 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#how-to-use" class="md-nav__link">
-    How to Use
-  </a>
-  
-    <nav class="md-nav" aria-label="How to Use">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#step-1-create-a-repo" class="md-nav__link">
     Step 1: Create a Repo
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#deal-with-the-repo" class="md-nav__link">
-    Deal with the Repo
+      
+        <li class="md-nav__item">
+  <a href="#step-2-deal-with-the-repo" class="md-nav__link">
+    Step 2: Deal with the Repo
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#set-up-and-installation" class="md-nav__link">
-    Set-Up and Installation
+      
+        <li class="md-nav__item">
+  <a href="#step-3-set-up-and-installation" class="md-nav__link">
+    Step 3: Set-Up and Installation
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#minor-bugfixes" class="md-nav__link">
-    Minor Bugfixes
+      
+        <li class="md-nav__item">
+  <a href="#step-4-minor-bugfixes" class="md-nav__link">
+    Step 4: Minor Bugfixes
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#deploy-and-commit" class="md-nav__link">
-    Deploy and Commit
+      
+        <li class="md-nav__item">
+  <a href="#step-5-deploy-and-commit" class="md-nav__link">
+    Step 5: Deploy and Commit
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -369,50 +356,37 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#how-to-use" class="md-nav__link">
-    How to Use
-  </a>
-  
-    <nav class="md-nav" aria-label="How to Use">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#step-1-create-a-repo" class="md-nav__link">
     Step 1: Create a Repo
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#deal-with-the-repo" class="md-nav__link">
-    Deal with the Repo
+      
+        <li class="md-nav__item">
+  <a href="#step-2-deal-with-the-repo" class="md-nav__link">
+    Step 2: Deal with the Repo
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#set-up-and-installation" class="md-nav__link">
-    Set-Up and Installation
+      
+        <li class="md-nav__item">
+  <a href="#step-3-set-up-and-installation" class="md-nav__link">
+    Step 3: Set-Up and Installation
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#minor-bugfixes" class="md-nav__link">
-    Minor Bugfixes
+      
+        <li class="md-nav__item">
+  <a href="#step-4-minor-bugfixes" class="md-nav__link">
+    Step 4: Minor Bugfixes
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#deploy-and-commit" class="md-nav__link">
-    Deploy and Commit
+      
+        <li class="md-nav__item">
+  <a href="#step-5-deploy-and-commit" class="md-nav__link">
+    Step 5: Deploy and Commit
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -431,30 +405,29 @@
 
 <h1 id="introduction-to-astrosite">Introduction to Astrosite</h1>
 <p>Astrosite is a basic template to create Astronomy-related Websites in MkDocs with Material as a theme.</p>
-<h2 id="how-to-use">How to Use</h2>
-<h3 id="step-1-create-a-repo">Step 1: Create a Repo</h3>
+<h2 id="step-1-create-a-repo">Step 1: Create a Repo</h2>
 <p>Create a repo by going to https://github.com/NUSH-Astro/astrosite and clicking "Use this template" as shown below:</p>
 <p><img alt="" src="../img/template1.png" /></p>
 <p>This will lead you to another page to generate a repository from this template as shown below. Make sure to create this repo in the <a href="https://github.com/NUSH-Astro">NUSH-Astro</a> GitHub Organisation and Provide a useful name and description for the repo. Make sure to make the repo public, otherwise deployment is not possible. Click "Create repository from template" when done.</p>
 <p><img alt="" src="../img/template2.png" /></p>
-<h3 id="deal-with-the-repo">Deal with the Repo</h3>
+<h2 id="step-2-deal-with-the-repo">Step 2: Deal with the Repo</h2>
 <p>This will lead you to the newly created GitHub Repo, in this case https://github.com/NUSH-Astro/cosmology, and you can now click the "Code" button and copy the Repo address as shown. This will be useful for downloading the repo and then administrating it.</p>
 <p><img alt="" src="../img/copygithub.png" /></p>
 <p>Next, go to your terminal (for the purposes of this tutorial, I am using Git Bash), and clone the repository into a specific folder. Now, move into this newly created folder and run <code>./setup.sh</code> on some bash-supporting terminal.</p>
 <p><img alt="" src="../img/gitbash.png" /></p>
-<h3 id="set-up-and-installation">Set-Up and Installation</h3>
+<h2 id="step-3-set-up-and-installation">Step 3: Set-Up and Installation</h2>
 <p>This installation expects that you already have Python and Git Installed. If you don't, do install them from relevant sources.</p>
 <p>Next, the setup file will install <code>mkdocs</code> and <code>mkdocs-material</code> from <code>pip</code> , allowing you to now convert these markdown files to HTML. Following this, it will open a <code>Nano</code> tab to input the name of the site. Make sure to convert <code>astrosite</code> to your preferred domain choice (domain choices have been stated, but can be added by contacting Prannaya), in this case <code>cosmo</code>. Press <code>Ctrl-O</code>, <code>Enter</code> and <code>Ctrl-X</code> when you are done.</p>
 <p><img alt="" src="../img/nanochange.png" /></p>
 <p>Now, the setup file will deploy the site and you should probably be able to see the following messages:</p>
 <p><img alt="" src="../img/deploymentmsg.png" /></p>
 <p>This is mostly unimportant, but the main thing to note is that the CNAME file has been updated.</p>
-<h3 id="minor-bugfixes">Minor Bugfixes</h3>
+<h2 id="step-4-minor-bugfixes">Step 4: Minor Bugfixes</h2>
 <p>Now, need to open the <code>mkdocs.yml</code> file to change the name of the Site, simply by typing <code>nano mkdocs.yml</code> as shown.</p>
 <p><img alt="" src="../img/openyml.png" /></p>
 <p>From here, it opens the Nano Tab and you can change the site name from <code>AstroSite</code> to any name, containing some reference to the topic at hand. In this case, it has been renamed to <code>Cosmology</code>. Press <code>Ctrl-O</code>, <code>Enter</code> and <code>Ctrl-X</code> when you are done.</p>
 <p><img alt="" src="../img/convertname.png" /></p>
-<h3 id="deploy-and-commit">Deploy and Commit</h3>
+<h2 id="step-5-deploy-and-commit">Step 5: Deploy and Commit</h2>
 <p>From here, you can now deploy the site again by typing out <code>./deploy.sh</code> as shown.</p>
 <p><img alt="" src="../img/deployagain.png" /></p>
 <p>From here, the site is now being deployed, and you can visit it in about 3 or 4 minutes. Till then, you can push the repo up by doing the following commands:</p>
