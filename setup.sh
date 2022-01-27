@@ -3,4 +3,6 @@
 pip3 install mkdocs
 pip3 install mkdocs-material
 
-mkdocs build
+nano docs/CNAME
+
+./deploy.sh

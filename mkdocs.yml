@@ -56,4 +56,4 @@ extra_javascript:
 nav:
   - Getting Started: index.md
   - Astrosite:
-	- 'Introduction to Astrosite.md'
+    - 'Introduction to Astrosite.md'
