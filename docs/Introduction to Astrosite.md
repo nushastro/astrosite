@@ -2,8 +2,7 @@
 
 Astrosite is a basic template to create Astronomy-related Websites in MkDocs with Material as a theme.
 
-## How to Use
-### Step 1: Create a Repo
+## Step 1: Create a Repo
 Create a repo by going to https://github.com/NUSH-Astro/astrosite and clicking "Use this template" as shown below:
 
 ![](img/template1.png)
@@ -12,7 +11,7 @@ This will lead you to another page to generate a repository from this template a
 
 ![](img/template2.png)
 
-### Deal with the Repo
+## Step 2: Deal with the Repo
 This will lead you to the newly created GitHub Repo, in this case https://github.com/NUSH-Astro/cosmology, and you can now click the "Code" button and copy the Repo address as shown. This will be useful for downloading the repo and then administrating it.
 
 ![](img/copygithub.png)
@@ -21,7 +20,7 @@ Next, go to your terminal (for the purposes of this tutorial, I am using Git Bas
 
 ![](img/gitbash.png)
 
-### Set-Up and Installation
+## Step 3: Set-Up and Installation
 This installation expects that you already have Python and Git Installed. If you don't, do install them from relevant sources.
 
 Next, the setup file will install `mkdocs` and `mkdocs-material` from `pip` , allowing you to now convert these markdown files to HTML. Following this, it will open a `Nano` tab to input the name of the site. Make sure to convert `astrosite` to your preferred domain choice (domain choices have been stated, but can be added by contacting Prannaya), in this case `cosmo`. Press `Ctrl-O`, `Enter` and `Ctrl-X` when you are done.
@@ -34,7 +33,7 @@ Now, the setup file will deploy the site and you should probably be able to see 
 
 This is mostly unimportant, but the main thing to note is that the CNAME file has been updated.
 
-### Minor Bugfixes
+## Step 4: Minor Bugfixes
 
 Now, need to open the `mkdocs.yml` file to change the name of the Site, simply by typing `nano mkdocs.yml` as shown.
 
@@ -44,7 +43,7 @@ From here, it opens the Nano Tab and you can change the site name from `AstroSit
 
 ![](img/convertname.png)
 
-### Deploy and Commit
+## Step 5: Deploy and Commit
 
 From here, you can now deploy the site again by typing out `./deploy.sh` as shown.
 
