@@ -3,7 +3,7 @@
 Astrosite is a basic template to create Astronomy-related Websites in MkDocs with Material as a theme.
 
 ## Step 1: Create a Repo
-Create a repo by going to https://github.com/NUSH-Astro/astrosite and clicking "Use this template" as shown below:
+Create a repo by going to  the [`astrosite` repo](https://github.com/NUSH-Astro/astrosite) and clicking "Use this template" as shown below:
 
 ![](img/template1.png)
 
@@ -12,7 +12,7 @@ This will lead you to another page to generate a repository from this template a
 ![](img/template2.png)
 
 ## Step 2: Deal with the Repo
-This will lead you to the newly created GitHub Repo, in this case https://github.com/NUSH-Astro/cosmology, and you can now click the "Code" button and copy the Repo address as shown. This will be useful for downloading the repo and then administrating it.
+This will lead you to the newly created GitHub Repo, in this case [https://github.com/NUSH-Astro/cosmology](https://github.com/NUSH-Astro/cosmology), and you can now click the "Code" button and copy the Repo address as shown. This will be useful for downloading the repo and then administrating it.
 
 ![](img/copygithub.png)
 
@@ -53,7 +53,7 @@ From here, the site is now being deployed, and you can visit it in about 3 or 4 
 
 ![](img/gitmaster.png)
 
-After this, you can simply access it from the site, in this case http://cosmo.nushastro.ml/, as shown below:
+After this, you can simply access it from the site, in this case [http://cosmo.nushastro.ml/](http://cosmo.nushastro.ml/), as shown below:
 
 ![](img/newsite.png)
 
