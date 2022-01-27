@@ -1,3 +1,4 @@
 #!/usr/bin/env sh
 
-git subtree push --prefix dist origin gh-pages
+git add site && git commit -m "Commit site"
+git subtree push --prefix site origin gh-pages
