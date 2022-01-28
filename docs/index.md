@@ -27,9 +27,11 @@ $$\vec F_g = -G \frac{Mm}{r^2} \hat r$$
  \[ \begin{align*} g &= G \frac{M}{r^2} \\ &= 9.806 = \frac{1}{2} (9.832 - 9.780) \times \cos \left( 2\theta \right) \end{align*} \]
  ```
 
-It yields the following result.
- $$\begin{align*} g &= G \frac{M}{r^2} \\ &= 9.806 - \frac{1}{2} (9.832 - 9.780) \times \cos \left( 2\theta \right) \end{align*}$$
-Where $\theta$ denotes the angle of elevation.
+It yields the following result, where $\theta$ denotes the angle of elevation.
+
+
+$$\begin{align*} g &= G \frac{M}{r^2} \\ &= 9.806 - \frac{1}{2} (9.832 - 9.780) \times \cos \left( 2\theta \right) \end{align*}$$
+
 
 This is useful especially in Physics-heavy fields of Astronomy, since they do require LaTeX for focusing on them.
 
