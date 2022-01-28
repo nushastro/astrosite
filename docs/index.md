@@ -23,9 +23,9 @@ $$\vec F_g = -G \frac{Mm}{r^2} \hat r$$
 
  Which is, of course, the vectorised equation of Universal Gravitation. Similarly, something like as follows:
 
- ```latex
+```latex
 $$\begin{align*} g &= G \frac{M}{r^2} \\ &= 9.806 - \frac{1}{2} (9.832 - 9.780) \times \cos \left( 2\theta \right) \end{align*}$$
- ```
+```
 
 It yields the following result, where $\theta$ denotes the angle of elevation.
 
