@@ -7,9 +7,9 @@ Astrosite is a basic template to create Astronomy-related Websites in MkDocs wit
 
 ![](img/orbital.png)
 
-The MkDocs system implemented provides comprehensive LaTeX support. By enclosing within a `$$ ... $$` or `\[ ... \]` for breakout highlighted LaTeX posts, or `$ ... $` or `\( ... \)` for inline LateX, you can display mathematical text and information in a proper format.
+The MkDocs system implemented provides comprehensive LaTeX support. By enclosing within a `$$ ... $$` for breakout highlighted LaTeX posts, or `$ ... $` for inline LateX, you can display mathematical text and information in a proper format.
 
-For instance, `$ x_a^b $` gives $x_a^b$, while `\( e^{-x^2} \)` will give $e^{-x^2}$, which is pretty helpful for highlighting variables or values between text.
+For instance, `$x_a^b$` gives $x_a^b$, while `$e^{-x^2}$` will give $e^{-x^2}$, which is pretty helpful for highlighting variables or values between text.
 
 On the other hand, we also have larger equations like the following:
 
@@ -24,7 +24,7 @@ $$\vec F_g = -G \frac{Mm}{r^2} \hat r$$
  Which is, of course, the vectorised equation of Universal Gravitation. Similarly, something like as follows:
 
  ```latex
- \[ \begin{align*} g &= G \frac{M}{r^2} \\ &= 9.806 = \frac{1}{2} (9.832 - 9.780) \times \cos \left( 2\theta \right) \end{align*} \]
+$$\begin{align*} g &= G \frac{M}{r^2} \\ &= 9.806 - \frac{1}{2} (9.832 - 9.780) \times \cos \left( 2\theta \right) \end{align*}$$
  ```
 
 It yields the following result, where $\theta$ denotes the angle of elevation.
