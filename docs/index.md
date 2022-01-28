@@ -1,6 +1,6 @@
-# Getting Started
+# Welcome to Astrosite!
 
-This is a sample site template for the Astronomy Club CCA. You can use this for Theory and more stuff.
+Astrosite is a basic template to create Astronomy-related Websites in MkDocs with Material as a theme. This is a sample site template for the Astronomy Club CCA. You can use this for Theory and more stuff.
 
 ## Features
 ### LaTeX Support

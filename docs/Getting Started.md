@@ -1,6 +1,6 @@
 # Getting Started
 
-Astrosite is a basic template to create Astronomy-related Websites in MkDocs with Material as a theme.
+How do you use `astrosite`? Here's a guide for you.
 
 ## Step 1: Create a Repo
 Create a repo by going to  the [`astrosite` repo](https://github.com/NUSH-Astro/astrosite) and clicking "Use this template" as shown below:
