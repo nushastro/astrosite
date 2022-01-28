@@ -55,5 +55,4 @@ extra_javascript:
 
 nav:
   - Home: index.md
-  - Astrosite:
-    - 'Getting Started.md'
+  - 'Getting Started.md'
